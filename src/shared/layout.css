@@ -1,0 +1,22 @@
+.LayoutContainer{
+    display: flex;
+    position: relative;
+}
+
+.layoutContent{
+    width: 100%;
+    margin-top: 56px;
+    padding-left: 56px;
+    z-index: 0;
+}
+
+.topBar{
+    top: 0px;
+    left: 56px;
+    display: flex;
+    height: 56px;
+    position: absolute;
+    width: calc(100% - 56px);
+    background-color: white;
+    border-bottom: 1px solid #e9eff4;
+}
