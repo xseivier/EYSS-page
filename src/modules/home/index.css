@@ -1,0 +1,23 @@
+.home-1{
+    display: flex;
+}
+
+.imageHomeTop{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 64%;
+}
+
+.imageHomeBottom{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 50%;
+}
+
+.title-home-1{
+    font-size: 50px;
+}

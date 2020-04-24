@@ -5,13 +5,14 @@
 
 .layoutContent{
     width: 100%;
-    margin-top: 80px;
+    margin-top: 150px;
     padding: 0 80px;
     z-index: 0;
 }
 
 .topBar{
     top: 0px;
+    z-index: 1;
     left: 80px;
     padding-right: 50px;
     display: flex;
@@ -20,11 +21,15 @@
     align-items: center;
     justify-content: space-between;
     width: calc(100% - 130px);
-    border-bottom: 1px solid #e9eff4;
 }
 
 .link-topbar{
-    margin: 10px;
+    padding: 5px 10px;
     text-decoration: none;
-    color: #424242;
+    color: #424242ce;
+    font-weight: 500;
+}
+
+.link-topbar:hover{
+    border-bottom: 3px solid rgb(30, 154, 255);
 }
