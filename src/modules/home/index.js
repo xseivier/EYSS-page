@@ -22,6 +22,5 @@ export default function Home() {
           <img src={HomeImage} width='700px' alt='homeImage'/>
         </div>
       </Fragment>
-        
     )
 }

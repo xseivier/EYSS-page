@@ -11,8 +11,9 @@ export const TopBar = () => {
             <img src={LogoEyss} width='120px' alt='logo'/> 
           </div>
           <div style={{display: 'flex'}}>
-           <Link className='link-topbar' to='/' >Inicio</Link> 
-           <Link className='link-topbar' to='/about-us'>Servicios</Link>
+           <Link className='link-topbar' to='/'>Inicio</Link> 
+           <Link className='link-topbar' to='/'>Nosotros</Link>
+           <Link className='link-topbar' to='/'>Servicios</Link>
            <Link className='link-topbar' to='/'>Equipo</Link>
            <Link className='link-topbar' to='/'>Clientes</Link>
            <Link className='link-topbar' to='/'>Contacto</Link>
