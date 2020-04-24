@@ -19,7 +19,7 @@ export default function Home() {
             </p>
             <Button variant="contained" style={{background: "#4885ed", color: '#fff'}}>Nuestros servicios</Button>
           </div>
-          <img src={HomeImage} width='700px' alt='homeImage'/>
+          <img src={HomeImage} width='700px' height='100%' alt='homeImage'/>
         </div>
       </Fragment>
     )
