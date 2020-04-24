@@ -5,18 +5,26 @@
 
 .layoutContent{
     width: 100%;
-    margin-top: 56px;
-    padding-left: 56px;
+    margin-top: 80px;
+    padding: 0 80px;
     z-index: 0;
 }
 
 .topBar{
     top: 0px;
-    left: 56px;
+    left: 80px;
+    padding-right: 50px;
     display: flex;
-    height: 56px;
+    height: 80px;
     position: absolute;
-    width: calc(100% - 56px);
-    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 130px);
     border-bottom: 1px solid #e9eff4;
+}
+
+.link-topbar{
+    margin: 10px;
+    text-decoration: none;
+    color: #424242;
 }

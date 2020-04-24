@@ -1,26 +1,28 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Grid } from '@material-ui/core';
 import { Link } from 'react-router-dom'
+import LogoEyss from '../assets/LOGO_EYSS.png'
+import { Button } from '@material-ui/core'
 
 export const TopBar = () => {
     return (
         <div className='topBar'>
-          <Grid
-            container
-            direction="row"
-            justify="center"
-            alignItems="center"
-            >    
-           <Grid xs={1}><Link to='/'>Inicio</Link> </Grid>
-           <Grid xs={1}><Link to='/about-us'>Servicios</Link></Grid>
-           <Grid xs={1}><Link to='/'>Equipo</Link></Grid>
-           <Grid xs={1}><Link to='/'>Clientes</Link></Grid>
-           <Grid xs={1}><Link to='/'>Contacto</Link></Grid>
-           <Grid xs={1}><Link to='/'>Portafolio</Link></Grid>
-           <Grid xs={1}><Link to='/'>Awards</Link></Grid>
-           <Grid xs={1}><Link to='/'>News</Link></Grid>
-          </Grid>
+          <div>
+            <img src={LogoEyss} width='120px' alt='logo'/> 
+          </div>
+          <div style={{display: 'flex'}}>
+           <Link className='link-topbar' to='/' >Inicio</Link> 
+           <Link className='link-topbar' to='/about-us'>Servicios</Link>
+           <Link className='link-topbar' to='/'>Equipo</Link>
+           <Link className='link-topbar' to='/'>Clientes</Link>
+           <Link className='link-topbar' to='/'>Contacto</Link>
+           <Link className='link-topbar' to='/'>Portafolio</Link>
+           <Link className='link-topbar' to='/'>Awards</Link>
+           <Link className='link-topbar' to='/'>News</Link>
+          </div>
+          <div>
+            <Button>Idioma</Button>
+          </div>
         </div>
       );
 };
