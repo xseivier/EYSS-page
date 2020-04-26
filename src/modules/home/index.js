@@ -15,7 +15,7 @@ export default function Home() {
             ¡Estamos listos para impulsar tu negocio!
             </h2>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim venia, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.
             </p>
             <Button variant="contained" style={{background: "#4885ed", color: '#fff'}}>Nuestros servicios</Button>
           </div>
