@@ -17,7 +17,7 @@ export default function AboutUs() {
                 <div className='card c-2'>
                     <div className='card-header'>
                         <h4>Dedicacion</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
+                        <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua</p>
                     </div>
                 </div>
                 <div className='card c-3'>
