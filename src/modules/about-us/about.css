@@ -1,0 +1,31 @@
+.about{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.about-title{
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.cards-container{
+    margin-top: 100px;
+    display: flex;
+    height: 400px;
+}
+
+.card{
+    margin: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.c-2{
+    margin-top: 30px;
+}
+
+.c-3{
+    margin-top: 60px;
+}
